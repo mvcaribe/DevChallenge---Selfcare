@@ -65,10 +65,12 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 3.3rem 7rem 3.3rem 7rem;
-
+    
+}
+p {
+    font-size: 2rem;
     font-weight: 700;
 }
-
 
 .home--products {
     display: flex;
@@ -80,6 +82,7 @@ header {
 .list--products {
     margin: 7rem;
     font-weight: 700;
+    cursor: pointer;
 }
 .products p, span {
     margin-bottom: 1rem;
@@ -94,4 +97,35 @@ span {
     height: 30.3rem;
     object-fit: cover;
     margin-bottom: 2.3rem;
+}
+
+.footer--section--up {
+    border-bottom: 0.1rem solid var(--border--color);
+}
+
+.footer--section {
+    margin: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer--section--infor p {
+    margin-bottom: 1rem;
+}
+.footer--newsletter {
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+forme label {
+    margin-bottom: 1.8rem;
+}
+button {
+    width: 15.2rem;
+    height: 5.4rem;
+    border: none;
+    color: #FFF;
+    border-radius: 0px 5px 5px 0px;
+    background-color: var(--green--color);
 }
