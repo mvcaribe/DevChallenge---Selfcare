@@ -152,14 +152,12 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 7rem;
 }
-.footer--section--down--left {
-    margin: 7rem 5rem;
-}
+
 .footer--section--down--right {
     display: flex;
     align-items: center;
-    margin: 7rem 5rem;
 }
 .footer--section--down--left a {
     margin-right: 2rem;
