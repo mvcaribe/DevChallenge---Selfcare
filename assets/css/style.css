@@ -22,7 +22,6 @@ header {
     display: flex;
 }
 .header {
-    max-width: 1440px;
     display: flex;
     align-items: center;
     flex: 1;
@@ -188,4 +187,46 @@ button {
     margin-top: 1.7rem;
     border-radius: 0.3rem;
    }
+}
+
+@media (max-width: 425px) {
+    .logo a {
+        margin-left: 2rem;
+    }
+    .menu ul {
+        margin: 2rem;
+    }
+    .infor,
+    .list--products,
+    .footer--section,
+    .footer--section--down {
+        margin: 3.3rem 2rem;
+    }
+    #img {
+        width: 12.6rem;
+        height: 12.6rem;
+    }
+    .products p, span {
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .footer--section--infor p,
+    label,
+    input::placeholder {
+        font-size: 1.4rem;
+    }
+    .footer--newsletter {
+        margin-bottom: 4.2rem;
+    }
+    .footer--section--down--left img {
+        width: 2.3rem;
+    }
+    .footer--section--down--left a {
+        margin-right: 1rem;
+    }
+    .footer--section--down--right img {
+        margin-right: 1rem;
+        width: 2.9rem;
+        height: 2.3rem;
+    }
 }
