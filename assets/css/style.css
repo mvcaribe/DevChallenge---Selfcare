@@ -165,3 +165,27 @@ button {
 .footer--section--down--right img  {
     margin-right: 2rem;
 }
+
+
+@media (max-width: 768px) {
+   #img {
+    width: 22rem;
+    height: 22rem;
+   } 
+   .footer--section {
+    flex-direction: column;
+   }
+   .footer--section--infor {
+    margin-bottom: 5.4rem;
+   }
+   input {
+    width: 100%;
+    border-radius: 0.3rem;
+   }
+   button {
+    position: relative;
+    width: 100%;
+    margin-top: 1.7rem;
+    border-radius: 0.3rem;
+   }
+}
